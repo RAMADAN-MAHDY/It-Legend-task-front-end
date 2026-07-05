@@ -5,7 +5,7 @@ import { Button } from "../ui/Button";
 
 export const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-zinc-100 bg-white/80 backdrop-blur-md">
+    <header className="sticky top-0 z-5000 w-full border-b border-zinc-100 bg-white/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center space-x-8">
