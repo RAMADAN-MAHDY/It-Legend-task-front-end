@@ -18,8 +18,11 @@ export const PlayerHeader = () => {
             </li>
           </ol>
         </nav>
-        <h1 className="text-[50px] font-semibold text-gray-900 mt-6 leading-tight">
+        <h1 className="sm:text-[50px] text-[23px] font-semibold text-gray-900 mt-6 leading-tight">
           Starting SEO as your Home
+        </h1>
+        <h1 className="text-[23px] sm:hidden font-semibold text-gray-900 leading-tight">
+           Based Business
         </h1>
       </div>
     </header>

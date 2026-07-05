@@ -6,7 +6,7 @@ import { NavButtons } from "./NavButtons";
 import { CourseMaterials } from "./CourseMaterials";
 import { CourseTopics, TopicHeader } from "./CourseTopics";
 import { Comments } from "./Comments";
-
+import  SocialActions  from './SocialActions';
 export const CoursePlayerContainer = () => {
   const [isWide, setIsWide] = useState(false);
 
@@ -25,7 +25,14 @@ export const CoursePlayerContainer = () => {
 
       {/* Materials & Nav Section */}
       <div className={`lg:order-2 pb-9 ${isWide ? "lg:col-span-1" : "lg:col-start-1"}`}>
+        <div className={`sm:hidden`}>
         <NavButtons />
+        </div>
+
+         <div className={`sm:block hidden`}>
+        <SocialActions />
+        </div>
+
         <CourseMaterials />
       </div>
 
