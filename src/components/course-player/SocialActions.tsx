@@ -1,19 +1,19 @@
 import React from "react";
-import { ThumbsUp, Share2, Bookmark, Twitter, Youtube, Earth } from "lucide-react";
+import { ThumbsUp, Share2, Bookmark, Twitter, Youtube ,Facebook ,Linkedin } from "lucide-react";
 import { Button } from "../ui/Button";
 
-export const SocialActions: React.FC = () => {
+export default function SocialActions() {
   return (
-    <div className="flex items-center justify-between mb-8">
+    <div className="flex items-center justify-between text-[#333333] mt-8">
       <div className="flex items-center space-x-2">
         <Button variant="outline" size="icon" className="rounded-full">
-          <Share2 className="w-4 h-4" />
+          <Facebook className="w-4 h-4" />
         </Button>
         <Button variant="outline" size="icon" className="rounded-full">
           <Twitter className="w-4 h-4" />
         </Button>
         <Button variant="outline" size="icon" className="rounded-full">
-          <Earth className="w-4 h-4" />
+          <Linkedin className="w-4 h-4" />
         </Button>
         <Button variant="outline" size="icon" className="rounded-full">
           <Youtube className="w-4 h-4" />
